@@ -1,0 +1,20 @@
+{
+    "name": "Why eating is healthy",
+    "icon": "minecraft:cooked_mutton",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": " Starting off, you have less hearts than 10. To increase the amount of hearts, you need to eat different types of food. After you have reached a certain amount (a milestone) you will get an extra heart. $(br) Here are the milestones in numbers: 10, 20, 40, 80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 350, 450, 550.  "
+        },
+        {
+            "type": "text",
+            "text": "This means you will get your first extra heart when you have eaten 10 different food items, the next one at 20 and so on."
+        }
+
+    ],
+    "sortnum": 3
+    
+}
+
+

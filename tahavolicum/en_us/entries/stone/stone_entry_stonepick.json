@@ -1,0 +1,20 @@
+{
+    "name": "Getting a stone pick",
+    "icon": "minecraft:stone_pickaxe",
+    "category": "patchouli:stone_category",
+    "advancement": "stone:stonegrill",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " With warmth in your dwelling and hot food in your belly, you start thinking about cost-efficiency, taxes, meetings....  $(br2) But before all that, you should improve the tools you are using. Perhaps then you will find new ways to improve your life?"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:stonepick"
+        }
+       
+
+    ],
+    "sortnum": 4
+}

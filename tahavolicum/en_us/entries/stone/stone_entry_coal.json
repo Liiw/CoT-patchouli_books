@@ -1,0 +1,42 @@
+{
+    "name": "Gimme fuel, gimme fire!",
+    "icon": "minecraft:coal",
+    "category": "patchouli:stone_category",
+    "advancement": "stone:stone_pick",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " After slaving away at the fire pit for what seems like hours, you finally have a stone pickaxe. Processing all this stone made you realize, that the rocks you have seen lying on the ground are not all similar to each other. Some seem different than others and could further aid you in your journey"
+        },
+        {
+            "type": "multiblock",
+            "name": "Coal ore and samples",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "C": "minecraft:coal_ore",
+                    "G": "geolosys:ore_sample_vanilla",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["   ","   "," C "],
+                    ["G G"," G0","CC "],
+                    ["EEE","EEE","EEE"]
+                ]
+            },
+            "text": "Some more info on the next page."
+        },
+        {
+            "type": "text",
+            "text": " You may find some coal ore on the surface. Later, when you are need of more coal, search for the small sample deposits. These indicate a large ore deposit somewhere underground. It might be somewhere deep, it might be close to the surface. $(br) Breaking the sample yields nothing. They only serve as an indicator for the deposit. "
+        }
+        
+       
+
+    ],
+    "sortnum": 5
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Teamwork! (or not)",
+    "icon": "minecraft:skull:3",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": " Most of the progressing is done through advancements and gamestages. If you would like to team up with someone, you can use commands from a mod called 'Together Forever'. If you decide to create a team or join someone elses team, your advancements and gamestages will be synced. That means if one of your teammates gets an advancement or gamestage, it will be transferred to all the other team members."
+        },
+        {
+            "type": "text",
+            "text": " If you prefer to go through the ages yourself, it is probably advisable to not join a team. $(br) If you find this progressing tedious and just want to play the game, join someone who is doing a speedrun :) $(br) To use the commands, enter them onto the chat field ingame ($(l)$(k:chat)$()). Do note that entering the$(l) / $()first is important as then the game will know it is a command. $(br) The commands are listed on the next page."
+        },
+        {
+            "type": "text",
+            "text": "$(l)COMMANDS$(): $(li)$(1)/tofe invite <player_name>$() Invites a player to your team, if you don't have a team it will be created. $(li)$(1)/tofe accept <player_name>$() Accepts the invite to join that player's team. $(li)$(1)/tofe decline <player_name>$() Declines the invite to join that player's team. $(li)$(1)/tofe kick <player_name>$() Kicks a player from your team, only the player that created the team is allowed to run this command."
+        },
+        {
+            "type": "text",
+            "text": "$(li)$(1)/tofe leave$() $(br)Leaves your current team. $(li)$(1)/tofe info$() $(br)Shows information about your team $(li)$(1)/tofe forcesync$() $(br)Forces the sync of team information."
+        }
+
+    ],
+    "sortnum": 4
+    
+}
+
+

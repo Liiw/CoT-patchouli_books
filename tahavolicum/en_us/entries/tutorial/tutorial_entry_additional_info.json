@@ -1,0 +1,20 @@
+{
+    "name": "Things have changed",
+    "icon": "minecraft:writable_book",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Some changes in the general game. You don't have all the stuff in JEI showing. You need to unlock most of the stuff. $(br) You can follow the advancements screen ($(l)$(k:advancements)$()) to see excactly what you would need to be doing. $(br) As you progress, this book changes and new information appears in it."
+        },
+
+        {
+            "type": "text",
+            "text": " Also, most items now have weight. And there is a weight limit that you can see to the right of your hotbar. If you go over that limit, you slow down.$(br) This is to encourage transportation infrastructure. You will have plenty of ways to transport massive amounts of stuff quickly. "
+        }
+    ],
+    "sortnum": 2
+    
+}
+
+

@@ -1,0 +1,25 @@
+{
+    "name": "Awaken, my Child!",
+    "icon": "minecraft:grass",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": " You were once a regular villager, just standing around the village all day, occasionally tending to the crops and hiding away from monsters at night. Your thought process was not much to speak of and your hands seemed as if they were grown together from idling for so long."
+        },
+        {
+            "type": "text",
+            "text": " I, $(l)Tahavola$(), saw this and in my infinite wisdom, I decided to create you anew. I reforged you into something better. While previously you seemed to have a predetermined life, then not anymore. $(br) You now have a thirst for new knowledge. You now have the ability to pursue that knowledge. It is up to you if you want it. $(br) I grew tired of this world as it is. Therefore I am givin you free reign to do with it as you see fit."
+        },
+        {
+            "type": "text",
+            "text": " There are others like you, my Children. You may work with them or against them. This shall be your decision. $(br) Should you stray from my light and end in the dark clutches of the demon Sasda then this is your fate. Also my other Children will then KILL YOU UNTIL YOU DIE TO THE OVERDOSE OF DEATH. I would suggest not ending up in the dark clutches of the demon Sasda. He is evil. All that is evil in this world is because of Sasda."
+        },
+        {
+            "type": "text",
+            "text": " Should you take upon yourself to cleanse the world of this evil, you will be blessed! $(br2) Now, venture forth and make this world yours!"
+        }
+
+    ],
+    "sortnum": 1
+}

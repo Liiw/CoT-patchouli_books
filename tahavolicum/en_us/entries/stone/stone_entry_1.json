@@ -1,0 +1,20 @@
+{
+    "name": "Time to get crackin'",
+    "icon": "primal_tech:stone_club",
+    "category": "patchouli:stone_category",
+    "advancement": "tutorial:stone",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Every good stone age guy or gal should have themselves a proper club. You can make one by using wood or stone. $(br) The club is a versatile tool for any self-respecting cave-person. Go Violence!"
+        },
+        {
+            "type": "crafting",
+            "recipe": "primal_tech:recipe_wood_club",
+            "recipe2": "primal_tech:recipe_stone_club"
+        }
+
+    ],
+    "sortnum": 1
+}
