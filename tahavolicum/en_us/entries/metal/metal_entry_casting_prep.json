@@ -1,0 +1,50 @@
+{
+    
+
+    "name": "The tables have turned.",
+    "icon": "tconstruct:tooltables:1",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:copper",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " As you learn about new materials, so must you invent new ways to produce better tools. Craft a $(item)stencil table$(), a $(item)pattern chest$(), a $(item)part builder$() and a $(item)tool station$(). Place them down somewhere."
+        },
+        {
+            "type": "multiblock",
+            "name": "Tables",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "S": "tconstruct:tooltables[type=stenciltable]",
+                    "P": "tconstruct:tooltables[type=partbuilder]",
+                    "T": "tconstruct:tooltables[type=toolstation]",
+                    "C": "tconstruct:tooltables[type=patternchest]",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["    ","    ","    "],
+                    ["    "," 0  ","SCPT"],
+                    ["EEEE","EEEE","EEEE"]
+                ]
+                
+            },
+            "text": "If you place them next to each other, you can swap the menus more easily."
+        },
+        {
+            "type": "text",
+            "text": " Get some blank patterns and using the stencil table, make a pickaxe head pattern. Using this pattern make a wooden pickkaxe head on the part builder. Also create a wooden binding and a wooden tool rod in the same way."
+        },
+        {
+            "type": "spotlight",
+            "item": "tconstruct:pattern"
+        }
+
+
+    ],
+    "sortnum": 2
+}

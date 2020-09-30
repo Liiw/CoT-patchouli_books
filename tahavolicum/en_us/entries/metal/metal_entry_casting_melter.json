@@ -1,0 +1,54 @@
+{
+    
+
+    "name": "My first melter.",
+    "icon": "tcomplement:melter",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:copper",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " Getting the copper ore is all well, but you must also process it. Craft a $(item)seared heater$(), a $(item)melter$(), a $(item)faucet$() and a $(item)casting table$(). Place them as shown on the right. $(br) On the next page, you will learn the basics of casting a tool with this setup."
+        },
+        {
+            "type": "multiblock",
+            "name": "Melter setup",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "M": "tcomplement:melter[active=true,facing=east,type=melter]",
+                    "H": "tcomplement:melter[active=true,facing=east,type=heater]",
+                    "F": "tconstruct:faucet[facing=north]",
+                    "T": "tconstruct:casting[type=table]",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["    "," MF ","    "],
+                    ["    ","0HT ","    "],
+                    ["EEEE","EEEE","EEEE"]
+                ]
+                
+            },
+            "text": "The faucet and table can be on any side of the melter."
+        },
+        {
+            "type": "text",
+            "text": " First you will need a clay cast to pour the copper pickaxe head. To make a cast, place a wooden pick head onto the casting table. Then you'll have to melt two pieces of clay in the melter. Make sure you have fuel in the heater (coal or charcoal will work). $(br) After the clay has melted, you can pour it over the tool head by right clicking the faucet. Once the cast has thawed the wooden pick head will disappear."
+        },
+        {
+            "type": "text",
+            "text": " After making a pickaxe head cast, you can start melting the copper. Throw  some copper ore or ingots into the melter. Three is enough for a pickaxe head. Wait for it to melt. If the melter is complaining about low temperature, use blocks of coal or charcoad as fuel, instead of single items. $(br) Once the copper has melted, you can pour it into the cast by right-clicking the faucet. After the molten metal has thawn into a pickaxe head, the cast will disappear."
+        },
+        {
+            "type": "text",
+            "text": " Later, when you have learned about gold and aluminum brass, you can also make casts that can be used multiple times. $(br) A melter can only keep one molten material at a time. If you need to move something out of the melter without losing it, you can pour it into a seared tank with a faucet. $(br) As you progress, you will be able to build a smeltery which lacks that limitation"
+        }
+
+
+    ],
+    "sortnum": 3
+}

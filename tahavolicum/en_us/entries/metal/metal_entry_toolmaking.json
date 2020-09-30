@@ -1,0 +1,22 @@
+{
+    
+
+    "name": "Making a copper pickaxe.",
+    "icon": "cot:Textures/BookImages/Icons/copperpick.png",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:copper",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " Once you have gotten the copper pickaxe head from the melter, you can make a copper pickaxe. To do that, open the tool station and select the pickaxe icon from the left. On the lower right of the menu, you will see that you need a tool rod, a pickaxe head and a binding. $(br) Place all the necessary parts into the slots with their icons."
+        },
+        {
+            "type": "text",
+            "text": " After doing that, the copper pickaxe should appear in the output slot. You can grab that from there. You can also name your pickaxe by using the slot at the top. It is also possible to rename items by using the 'Repair & Modify' menu on the toolstation. You can also repair the pickaxe in the tool station with ingots or nuggets of the tool's head material. $(br) With a copper pickaxe, you are able to mine tin."
+        }
+
+
+    ],
+    "sortnum": 4
+}

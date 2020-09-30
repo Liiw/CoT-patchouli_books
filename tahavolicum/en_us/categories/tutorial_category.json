@@ -1,5 +1,6 @@
 {
 	"name": "A brave new world!",
 	"description": "Take your first step in this world. Click on the chapters on your right to learn more.",
-	"icon": "minecraft:grass"
+	"icon": "minecraft:grass",
+	"sortnum": 1
 }

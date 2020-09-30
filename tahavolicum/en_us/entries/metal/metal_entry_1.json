@@ -1,0 +1,41 @@
+{
+    
+
+    "name": "Bloddy copper",
+    "icon": "geolosys:cluster:2",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:root",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " Similar to coal, copper can be found underground. When exploring, you may come accross small samples of copper. These indicate that there is an ore vein below."
+        },
+        {
+            "type": "multiblock",
+            "name": "Copper",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "a": "geolosys:ore_sample[variant=azurite]",
+                    "A": "geolosys:ore[variant=azurite]",
+                    "m": "geolosys:ore_sample[variant=malachite]",
+                    "M": "geolosys:ore[variant=malachite]",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["A M","   ","   "],
+                    ["AAM","am0","a m"],
+                    ["EEE","EEE","EEE"]
+                ]
+                
+            },
+            "text": "Copper minerals- Malachite and Azurite."
+        }
+
+    ],
+    "sortnum": 1
+}

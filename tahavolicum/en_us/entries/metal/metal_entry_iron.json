@@ -1,0 +1,41 @@
+{
+    
+
+    "name": "Getting some iron.",
+    "icon": "geolosys:cluster",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:tin",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " When you craft your first bronze pickaxe, you are able to mine iron. You can find some iron ore deposits on the surface, but the larger nodes lie underground."
+        },
+        {
+            "type": "multiblock",
+            "name": "Iron",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "c": "geolosys:ore_sample[variant=hematite]",
+                    "C": "geolosys:ore[variant=hematite]",
+                    "t": "geolosys:ore_sample[variant=limonite]",
+                    "T": "geolosys:ore[variant=limonite]",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["C T","   ","   "],
+                    ["CCT","ct0","c t"],
+                    ["EEE","EEE","EEE"]
+                ]
+                
+            },
+            "text": "Tin minerals- Limonite and Hematite."
+        }
+
+    ],
+    "sortnum": 9
+}

@@ -1,0 +1,52 @@
+{
+    
+
+    "name": "Alloying.",
+    "icon": "tcomplement:alloy_tank",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:tin",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " Now that you have tin, you can learn about alloying metals together. You should craft parts for another melter setup. Also craft an $(item)alloy tank$() and an additional $(item) seared heater$(). Place them as shown on the right. $(br) The $(item)alloy tank$() needs to be between two melters and have heating underneath."
+        },
+        {
+            "type": "multiblock",
+            "name": "Alloying setup",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "M": "tcomplement:melter[active=true,facing=east,type=melter]",
+                    "A": "tcomplement:alloy_tank",
+                    "H": "tcomplement:melter[active=true,facing=east,type=heater]",
+                    "N": "tconstruct:faucet[facing=north]",
+                    "S": "tconstruct:faucet[facing=south]",
+                    "W": "tconstruct:faucet[facing=west]",
+                    "T": "tconstruct:casting[type=table]",
+                    "s": "tconstruct:seared_tank",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["       "," SMAMN ","   W   ", "       "],
+                    ["  0    "," sHHHT ","   T   ", "       "],
+                    ["EEEEEEE","EEEEEEE","EEEEEEE", "EEEEEEE"]
+                ]
+                
+            },
+            "text": " This is an optimal setup with additional tables and a $(item)seared tank$() for storage."
+        },
+        {
+            "type": "text",
+            "text": " Once you have the alloying setup, you are ready to make bronze. When you check JEI for the molten bronze recipe, you should see an alloying tab. On that tab you can see the ingredients for bronze alloy. It takes three ingots of copper and one ingot of tin to make four ingots of bronze alloy.$(br) These ratios should be kept in mind when alloying other metals so that you would always get an even output and no uneven leftovers."
+        },
+        {
+            "type": "text",
+            "text": " To make bronze, you should put one ingot worth of tin into one melter and three ingot worth of copper in the other. Make sure all three heaters have fuel. When the metals are molten and the alloy tank is sufficiently heated, you can see the alloy starting to form in the tank. After that you can pour it into a cast to make a tool or weapon head. $(br) You should consider making a bronze pickaxe head."
+        }
+    ],
+    "sortnum": 6
+}

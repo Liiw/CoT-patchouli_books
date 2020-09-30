@@ -1,0 +1,22 @@
+{
+    
+
+    "name": "Modify&Repair.",
+    "icon": "thermalfoundation:material:163",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:copper",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " When you have made a tool part out of a better material, you can swap the old one out without making a new tool.$(br) For example if you currently have a pickaxe with a copper head and a new bronze pickaxe head, you can swap the head out by placing the pickaxe in the tool station (the modify&trepair menu) and placing the bronze pick head next to it." 
+        },
+        {
+            "type": "text",
+            "text": " If the old tool head is too damaged you have to repair it first. You can also swap out other parts of the tool (rods, bindings etc). Different materials affect the tool performance in many ways.$(br) It is also possible to add modifiers to tools using additives such as $(4)redstone$(), $(1)lapis lazuli$() etc. Modifiers also boost the stats of tools."
+        }
+
+
+    ],
+    "sortnum": 8
+}

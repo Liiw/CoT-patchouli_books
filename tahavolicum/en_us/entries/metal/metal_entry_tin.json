@@ -1,0 +1,41 @@
+{
+    
+
+    "name": "Getting some tin.",
+    "icon": "geolosys:cluster:9",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:copper",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " After getting a copper pickaxe, you can mine tin. Look for Cassiterite and Teallite mineral samples. After getting some tin ore, smelt it into an ingot. Perhaps there is something to be learned from it?"
+        },
+        {
+            "type": "multiblock",
+            "name": "Tin",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "c": "geolosys:ore_sample[variant=cassiterite]",
+                    "C": "geolosys:ore[variant=cassiterite]",
+                    "t": "geolosys:ore_sample[variant=teallite]",
+                    "T": "geolosys:ore[variant=teallite]",
+                    "E": "minecraft:grass"
+                },
+                "pattern":
+                [
+                    ["C T","   ","   "],
+                    ["CCT","ct0","c t"],
+                    ["EEE","EEE","EEE"]
+                ]
+                
+            },
+            "text": "Tin minerals- Cassiterite and Teallite."
+        }
+
+    ],
+    "sortnum": 5
+}
