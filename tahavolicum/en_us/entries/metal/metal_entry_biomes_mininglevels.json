@@ -1,24 +1,46 @@
 {
     
 
-    "name": "Onwards!",
-    "icon": "minecraft:obsidian",
+    "name": "More info about ores",
+    "icon": "minecraft:diamond_pickaxe",
     "category": "patchouli:metal_category",
-    "advancement": "metal:ironore",
+    "advancement": "metal:tin",
     "secret": true,
     "pages": [
+        
         {
             "type": "text",
-            "text": " You have gotten far already, but there is still more to go. If you get stuck, check out the advancements screen. After unlocking an advancement you usually have new things available for you to make as well. Check JEI often. Perhaps you will find something you need. " 
+            "text": " The blocks, tools and materials have different mining levels, as shown on the right.$(br) You can see the mining level required in JEI tooltips (hold shift when hovering over items in JEI) and also on the block info provided by HWYLA on the top of your screen. You can also see different mining levels of tools and tool materials in JEI and in your inventory." 
         },
         {
             "type": "text",
-            "text": "  " 
+            "title": "Mining Levels",
+            "text": "$(li)0:Stone$(li)1:Copper$(li)2:Bronze$(li)3:Iron$(li)4:Diamond$(li)5:Obsidian$(li)6:Steel$(li)7:Ardite$(li)8:Manyullyn " 
+        },
+        {
+            "type": "text",
+            "title": "Mineral clusters",
+            "text": " As you have probably noticed, ores now spawn in large mineral clusters. Those clusters are also indicated by samples on the surface. The minerals that contain the ores have different names than the ores." 
+        },
+        {
+            "type": "text",
+            "text": "$(li)Azurite, Malachite - Copper$(li)Teallite, Cassiterite - Tin$(li)Hematite - Iron $(li)Limonite - Iron, Nickel$(li)Galena - Lead, Silver$(li)Bauxite - Aluminium$(li)Kimberlite - Diamond$(li)Beryl - Emerald$(li)Autunite - Uranium$(li)Cinnabar - Redstone$(li)Assorted Quartz - Nether Quartz, Thaumcraft Quartz$(li)Platinum - Platinum, Naquadah, Certus Quartz" 
+        },
+        {
+            "type": "text",
+            "title": "Mineral distribution",
+            "text": " Some minerals are only found in specific biomes. $(li)Lapis Lazuli - desert, desert M, desert hills$(li)Limonite (iron) - swampland, swampland M, mushroom island, mushroom island shore (NB! the other iron ore, hematite, spawns in every biome)$(li)Lapis Lazuli - desert, desert M, desert hills$(li)Galena (lead) - plains, plains M, ice flats, ice flats M" 
+        },
+        {
+            "type": "text",
+            "text": "$(li)Limonite (iron) - swampland, swampland M, mushroom island, mushroom island shore (NB! the other iron ore, hematite, spawns in every biome)$(li)Bauxite (aluminum) - jungle, jungle M, jungle edge, jungle edge M, jugnle hills, beaches, savanna, savanna M, savanna plateau, savanna plateau M$(li)Platinum, Certus quartz, Autunite (uranium) and Emerald  - ice mountains, extreme hills, extreme hills+, extreme hills M, extreme hills+ M, extreme hills edge" 
         }
+        
+
+
 
 
     ],
     "sortnum": 10
 }
-
 

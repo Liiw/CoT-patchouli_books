@@ -1,0 +1,24 @@
+{
+    
+
+    "name": "Onwards!",
+    "icon": "minecraft:obsidian",
+    "category": "patchouli:metal_category",
+    "advancement": "metal:ironore",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " You have gotten far already, but there is still more to go. If you get stuck, check out the advancements screen. After unlocking an advancement you usually have new things available for you to make as well. Check JEI often. Perhaps you will find something you need. " 
+        },
+        {
+            "type": "text",
+            "text": "  " 
+        }
+        
+
+    ],
+    "sortnum": 11
+}
+
+

@@ -1,5 +1,6 @@
 {
     "name": "The Book of Truth",
     "landing_text": "This is the book that will teach you the truth about the world. Some of it is yet to be found. Click on the icons on the right to learn more.",
-    "subtitle": "The Truth is in here!"
+    "subtitle": "The Truth is in here!",
+	"show_progress": false
 }
