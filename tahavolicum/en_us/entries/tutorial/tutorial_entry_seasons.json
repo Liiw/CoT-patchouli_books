@@ -1,0 +1,17 @@
+{
+    "name": "How about that weather?",
+    "icon": "sereneseasons:ss_icon",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": " So, seasons are now a thing. A year is made up of four seasons- Spring, Summer, Autumn and Winter and each season has three sub-seasons. Each sub-season lasts for two weeks.  $(br) During Summer, in temperate biomes, it tends to get really warm. At Winter, snow will fall and water will freeze. "
+        },
+        {
+            "type": "text",
+            "text": " Planting crops is also affected by seasons. Each crop will have a fertile season or seasons. This means, that the crop will only grow during those seasons. It is also possible to construct a greenhouse, using special glass, which will help you to grow crops all-year round."
+        }
+
+    ],
+    "sortnum": 5
+}

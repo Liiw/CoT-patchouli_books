@@ -1,20 +1,20 @@
 {
     "name": "Getting wood",
-    "icon": "tconstruct:hatchet",
+    "icon": "pyrotech:crude_axe",
     "category": "patchouli:tutorial_category",
     "pages": [
         {
             "type": "text",
-            "text": " First you need to make a stone axe to get some wood. Sure, you can punch the trees with your fists, but that would not be very civilized now would it? $(br) You can find sticks and rocks lying around on the ground. Sticks can also be made from twigs, which you get by furiously attacking tree leaves."
+            "text": " First you need to make a crude axe to get some wood. Sure, you can punch the trees with your fists, but that would not be very civilized now would it? $(br) You can find and rocks lying around on the ground. Sticks can be acquired by furiously attacking tree leaves. For the fibres, punch grass and hope for the best."
         },
         {
             "type": "crafting",
-            "recipe": "stoneaxe",
-            "text": " After getting the hatchet, you can get wood more easily. Then you can start thinking about making a pick for mining stone from the ground."
+            "recipe": "pyrotech:tool/crude_axe",
+            "text": " After getting the axe, you can get wood more easily. Then you can start thinking about making a pick for mining stone from the ground."
         }
 
     ],
-    "sortnum": 5
+    "sortnum": 7
     
 }
 

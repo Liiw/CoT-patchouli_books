@@ -1,0 +1,23 @@
+{
+    "name": "Thirst and temperature",
+    "icon": "simpledifficulty:thermometer",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": " In addition to hunger, you also need to cater to your thirst level, which is indicated above your hunger level. You can drink from a water source directly, but drinking unpurified water will have a slight debuff. $(br) You should try to purify the water by heating it and later on, you can also use filters."
+        },
+        {
+            "title": "Temperature",
+            "type": "text",
+            "text": " You are also now affected by the temperature of the environment. This means that you have to cool yourself down, when it's too hot and warm yourself up when it is too cold. Pay attention to the little round indicator above your hotbar in the center. This will show your temperature condition."
+        },
+        {
+            
+            "type": "text",
+            "text": " As you progress, you unlock special linings which you can attach to your armor for extra warmth or cooling. Take this into consideration when battling harsher environments. $(br) Hanging around a campfire and being in water/rain can also alter your body temperature. $(br) In the future, you can craft devices, which enable you to warm or cool a closed room."
+        }
+
+    ],
+    "sortnum": 4
+}

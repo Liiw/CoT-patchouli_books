@@ -1,0 +1,19 @@
+{
+    "name": "More tips on survival",
+    "icon": "pyrotech:book",
+    "category": "patchouli:tutorial_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": " You have probably noticed that there is also another book in your pocket. From this book you can find helpful information on how to use some of the gadgets that you are going to craft along the way."
+        },
+        {
+            "type": "spotlight",
+            "item": "pyrotech:book",
+            "text": " "
+        }
+
+    ],
+    "sortnum": 8
+    
+}

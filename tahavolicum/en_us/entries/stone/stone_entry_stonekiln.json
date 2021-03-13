@@ -1,0 +1,33 @@
+{
+    "name": "Modernization",
+    "icon": "pyrotech:stone_kiln",
+    "category": "patchouli:stone_category",
+    "advancement": "stone:granite_anvil",
+    "secret": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": " Now you can start crafting some better equipment for resource processing. For example, the Stone Kiln on the right. You should also check out the others, like the Stone Oven and Stone Sawmill for example."
+        },
+        {
+            "type": "multiblock",
+            "name": "Stone kiln",
+            "enable_visualize": false,
+            "multiblock": 
+            {
+                "mapping": 
+                {
+                    "K": "pyrotech:stone_kiln",
+                    "F": "minecraft:fire",
+                    "W": "minecraft:log"
+                },
+                "pattern":
+                [
+                    [" ","0"," "],[" ", "K", " "],[" "," "," "]
+                ]
+            }
+        }
+
+    ],
+    "sortnum": 3
+}

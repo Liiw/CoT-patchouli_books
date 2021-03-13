@@ -1,18 +1,18 @@
 {
-    "name": "Time to get crackin'",
-    "icon": "primal_tech:stone_club",
+    "name": "Time to smash!",
+    "icon": "pyrotech:anvil_granite",
     "category": "patchouli:stone_category",
     "advancement": "tutorial:stone",
     "secret": true,
     "pages": [
         {
             "type": "text",
-            "text": "Every proper stone age guy or gal should have themselves a proper club. You can make one by using wood or stone. $(br) The club is a versatile tool for any self-respecting cave-person. Go Violence!"
+            "text": " You need to master the art of stoneworking. Place down a granite anvil and work something on it with a hammer. $(br) You can read more about it from the other book."
         },
         {
             "type": "crafting",
-            "recipe": "primal_tech:recipe_wood_club",
-            "recipe2": "primal_tech:recipe_stone_club"
+            "recipe": "pyrotech:anvil_granite",
+            "recipe2": "pyrotech:crude_hammer"
         }
 
     ],
